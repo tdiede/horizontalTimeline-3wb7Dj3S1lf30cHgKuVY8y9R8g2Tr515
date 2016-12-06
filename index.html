@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+
+    <title>Famous People | Horizontal Timeline</title>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="static/css/site.css" />
+
+    <link rel="icon" href="static/img/favicon2.ico" />
+
+</head>
+
+
+<body>
+
+<form id='add-educator'>
+<p id='form-prompt'>Who's your favorite educational hero?</h4>
+<input id='name' type='text' name='name' placeholder='name'>
+<input id='birth' type='number' name='birth' placeholder='year of birth'>
+<input id='death' type='number' name='death' placeholder='year of death'>
+<input id='summary' type='text' name='summary' placeholder='summary'>
+<input id='submit' type='submit' value='+'>
+</form>
+
+<div id='text'>
+<h3>TIMELINE OF FAMOUS EDUCATORS</h3>
+<p id='educator-name'>Click on the circles to learn more! </p>
+<p id='educator-summary'>Birth circles are sized according to lifespan of each individual -- not that a shorter life decreases a person's potential to influence!</p>
+<hr>
+<p id='close'></p>
+</div>
+
+<canvas id='timeline'></canvas>
+
+<script src="static/js/site.js"></script>
+
+</body>
+</html>

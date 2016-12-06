@@ -1,0 +1,49 @@
+/* Style */
+
+body {
+  background-color: #eeeeee;
+}
+
+canvas {
+  background-color: white;
+  padding: 10px;
+  cursor: crosshair;
+}
+
+div#text {
+  position: relative;
+  padding: 50px;
+  width: 40%;
+  float: left;
+}
+
+form#add-educator {
+  position: relative;
+  padding: 20px;
+  width: 40%;
+  float: left;
+}
+
+p {
+  display: inline;
+}
+
+p#educator-name, p#form-prompt {
+  font-weight: bold;
+}
+
+input {
+  display: block;
+  font-size: 14px;
+}
+
+#summary {
+  width: 300px;
+  height: 100px;
+  top: 0;
+}
+
+#submit, #remove-educator {
+  font-weight: bold;
+  cursor: pointer;
+}
