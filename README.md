@@ -14,4 +14,4 @@ Features
 + The canvas can accommodate as many events as the user is willing to scroll down to see.
 
 
-theresediede.com/horizontalTimeline-3wb7Dj3S1lf30cHgKuVY8y9R8g2Tr515/
+[link](theresediede.com/horizontalTimeline-3wb7Dj3S1lf30cHgKuVY8y9R8g2Tr515)
